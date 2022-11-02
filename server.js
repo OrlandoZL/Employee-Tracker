@@ -11,9 +11,9 @@ const db = mysql.createConnection(
       host: 'localhost',
       user: 'root',
       password: 'password',
-      database: ''
+      database: 'employees_db'
     },
-    console.log(`Connected to the  database.`)
+    console.log(`Connected to the employees_db database.`)
 );
 
 app.listen(PORT, () => {
